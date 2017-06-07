@@ -1,14 +1,11 @@
 CTF Writeup
 ===========
 
-# Memebers
+# Members
 
-- Name <youremail@addr.xyz>
-    * The main role of ``Name'' was to do something ...
-- ...
+- ChiHyun Song <ian0371@gmail.com>
+    * Main role: attack & coding
 
 # List of Writeups
-
-- [X.md](link to X.md)
-- [Y.md](link to Y.md)
-- ...
+- [bank.md](bank.md)
+- [viz.md](viz.md)
