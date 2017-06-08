@@ -12,6 +12,9 @@ CTF Writeup
 - Jangha Kim <james010kim@gmail.com>
     * Main role: attack & talking :D
 
+- Ji Hyeon Yoon <jihyeon.yoon@kaist.ac.kr>
+    * Main role: defence
+
 # List of Writeups
 - [bank.md](bank.md)
 - [viz.md](viz.md)
