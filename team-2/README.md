@@ -14,6 +14,6 @@ CTF Writeup
 
 # List of Writeups
 
-- [X.md](link to X.md)
+- ![bank.md](./bank.md)
 - [Y.md](link to Y.md)
 - ...
