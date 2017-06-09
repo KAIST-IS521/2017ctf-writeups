@@ -8,6 +8,9 @@ CTF Writeup
     vulnerabilities.
     * Also, ``Minjoon Park'' wrote attack script with python.
 
+- Nohyun Kwak <nhkwak@kaist.ac.kr>
+    * The main role of ``Nohyun Kwak'' was to do Code analysis for TeamOne & TeamTwo, Writing snort rule
+
 - Name <youremail@addr.xyz>
     * The main role of ``Name'' was to do something ...
 - ...
