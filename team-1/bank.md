@@ -2,19 +2,13 @@ Bank writeup
 ===========
 ### Vulnerability
 There is a SQL injection vulnerability in bank system. \
-The vulnerability originates from functions in `db/utils.py`: \
-`get_account_num`,`get_balance`, and `store_transaction`. \
+The vulnerability originates from functions in `db/utils.py`: `get_account_num`,`get_balance`, and `store_transaction`. \
 These functions can be spotted by diffing the source codes.
 
-The first two functions seem hard to be exploited \
-because the arguments are user IDs,\
-and this leaves us one and only readily-feasible vulnerable function, \
-`store_transaction`.
+The first two functions seem hard to be exploited because the arguments are user IDs,and this leaves us one and only readily-feasible vulnerable function, `store_transaction`.
 
 ### Payload
-The attack strategy is to insert the flag which resides in the email \
-field of admin into transfer message so that we can check the flag in \
-transaction history.
+The attack strategy is to insert the flag which resides in the email field of admin into transfer message so that we can check the flag in transaction history.
 Therefore, we put the following payload in the transfer message:
 
 ```
