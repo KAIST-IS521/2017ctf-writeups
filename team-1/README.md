@@ -15,6 +15,9 @@ CTF Writeup
 - Ji Hyeon Yoon <jihyeon.yoon@kaist.ac.kr>
     * Main role: defence
 
+- Jaemin Park <jmpark81@kaist.ac.kr>
+    * Main role: attack (run scripts) & defence
+
 # List of Writeups
 - [bank.md](bank.md)
 - [viz.md](viz.md)
