@@ -6,7 +6,7 @@ The vulnerability originates from `static_page` in `web/web.py` since this page
 does not check or sanitize the GET parameters of `page`.
 
 ### Payload
-The following is a payload used in the attack.
+The following is a payload used in the attack.\
 `http://10.0.101.103/get?page=../../../../var/ctf/flag`
 
 ### Full Exploit Code
