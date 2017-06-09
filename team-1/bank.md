@@ -7,7 +7,7 @@ The vulnerability originates from functions in `db/utils.py`: `get_account_num`,
 They can be spotted by diffing the source codes.
 
 First two functions seem hard to be exploited as the arguments are user ID,
-which leaves me one and only readily-feasiable vulnerabile function.
+which leaves me one and only readily-feasible vulnerable function.
 
 ### Payload
 The plan is to insert the flag which resides in the email field of admin into 
@@ -17,7 +17,7 @@ Therefore we put the following payload in transfer message:
 ```
 ',(SELECT email FROM user_table LIMIT 1)),0,0),(1,1,1,('1
 ```
-which results in complete sql query:
+which results in complete SQL query:
 ```sql
 INSERT INTO `tran_table`(`from_account`, `to_account`, `remit`, `msg`,
     `from_balance`, `to_balance`)
