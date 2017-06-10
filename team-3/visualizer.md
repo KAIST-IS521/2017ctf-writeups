@@ -1,2 +1,2 @@
-visualize Writeup
+visualizer Writeup
 ===========
