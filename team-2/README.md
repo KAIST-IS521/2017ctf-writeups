@@ -6,7 +6,7 @@ CTF Writeup
 - Minjoon Park <dinggul@kaist.ac.kr>
     * The main role of ``Minjoon Park`` was to analyze Team 2, 3, 4 and 5's services and try to find
     vulnerabilities.
-    * Also, ``Minjoon Park`` wrote attack script with python.
+    * Also, wrote attack script with python.
 
 - Nohyun Kwak <nhkwak@kaist.ac.kr>
     * The main role of ``Nohyun Kwak`` was to do Code analysis for TeamOne & TeamTwo, Writing snort rule
