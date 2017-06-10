@@ -5,7 +5,9 @@ CTF Writeup
 
 - Mingeun Kim <pr0v3rbs@kaist.ac.kr>
     * Solved [visualizer](visualizer.md) and [shopping-mall](shopping-mall.md) on the ctf.
-- ...
+- Hyeongcheol An <anh1026@kaist.ac.kr>
+
+-
 
 # List of Writeups
 
