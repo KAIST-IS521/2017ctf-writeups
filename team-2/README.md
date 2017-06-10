@@ -11,8 +11,10 @@ CTF Writeup
 - Nohyun Kwak <nhkwak@kaist.ac.kr>
     * The main role of ``Nohyun Kwak'' was to do Code analysis for TeamOne & TeamTwo, Writing snort rule
 
-- Name <youremail@addr.xyz>
-    * The main role of ``Name'' was to do something ...
+- Markus Faerevaag <mfaerevaag@kaist.ac.kr>
+    * The main role of ``Markus Faerevaag'' was to do code analysis for Team Three
+    * Also, defense with snort (writing rule for Visualizer and trying to get it working)
+
 - ...
 
 # List of Writeups
