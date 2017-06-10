@@ -9,7 +9,7 @@ I found `/get` page vulnerability first. So I got a flag from server during the 
 And I found `/login` page vulnerability while check visualizer code for writeups.
 
 ## File inclusion vulnerability on `/login` page
-### Describe
+### Explanation
 There are file inclusion vulnerability on `/login` page when getting github-ID using `GET` method. Server attempt to find public key and check that it's a valid public key. If public key is not valid, then server print out the content of the file.
 ### Source code
 ```python
@@ -28,7 +28,7 @@ def login():
 
 
 ## File inclusion vulnerability on `/get` page
-### Describe
+### Explanation
 It's a simple page that print out file-content without any name check. Especially there are no login check(`@login_required`) on `/get` page. So I can read the flag without valid user account.
 ### Source code
 ```python
