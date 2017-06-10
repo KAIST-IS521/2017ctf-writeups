@@ -23,5 +23,5 @@ CTF Writeup
 
 # List of Writeups
 
-- [bank.md](bank.md)
+- [mall.md](mall.md)
 - [viz.md](viz.md)
