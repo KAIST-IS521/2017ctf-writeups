@@ -3,12 +3,12 @@ CTF Writeup
 
 # Memebers
 
-- Name <youremail@addr.xyz>
-    * The main role of ``Name'' was to do something ...
+- Mingeun Kim <pr0v3rbs@kaist.ac.kr>
+    * He made [visualize service](https://github.com/KAIST-IS521/TeamThree/tree/master/web) and he solved [visualize](visualize.md) and [shopping-mall](shopping-mall.md) on the ctf.
 - ...
 
 # List of Writeups
 
-- [X.md](link to X.md)
-- [Y.md](link to Y.md)
+- [visualize.md](visualize.md)
+- [shopping-mall.md](shopping-mall.md)
 - ...
