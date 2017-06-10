@@ -4,7 +4,9 @@ CTF Writeup
 # Members
 
 - ChiHyun Song <ian0371@gmail.com>
-    * Main role: attack & coding
+    * The main role of ``ChiHyun Song`` was to try to find vulnerabilities in
+    every service and to write scripts that attack every team via `bank` and
+    `visualizer`, including script that submits flags.
 
 - Jiho Lee <cjdhlds08@gmail.com>
     * Main role: attack
