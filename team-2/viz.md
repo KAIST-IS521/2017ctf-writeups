@@ -1,4 +1,4 @@
-# Writeup for vizualizer service
+# Write-up for vizualizer service
 
 ## PoC code
 ```python
@@ -39,7 +39,7 @@ while True:
 
 ## Description
 
-When getting user's id at a first page, server doesn't check whether
-given input is valid or not. Since server finds user's public key with
-concatnating paths, we can simply inject path of flag at user's id field to
-get flag.
+When getting user's ID at a first page, server doesn't properly sanitize user
+input, resulting in a Local File Injection (FLI). Since server finds user's
+public key with concatnating paths, we can simply inject path of flag at user's
+ID field to get flag.

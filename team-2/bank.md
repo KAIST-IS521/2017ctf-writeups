@@ -6,14 +6,15 @@ require(String.fromCharCode(97+5)+String.fromCharCode(97+18)).readFileSync(Strin
 ```
 
 ## Description
-There is a `eval()` function when message is processed by server. So we can
-execute any javascript for at server side, but there is a small filter.
+In the "My Page", there is a `eval()`
+function [when message is processed by server][1]. So we can execute any
+javascript for at server side, but there is a small filter.
 
 It filters some chars including `'`, and `"`. Because of that, we cannot use
-string.
+strings.
 
-However, we can bypass using `String.fromCharCode()` function. This function
-produce a single character from ascii code, so with chaining that code, we
+However, we can bypass this using the `String.fromCharCode()` function. This
+function produce a single character from ASCII code, so by chaining that code we
 can produce any string freely.
 
 To read a key file, it is enough to execute this:
@@ -22,3 +23,5 @@ require('fs').readfFileSync(keypath).toString()
 ```
 
 With proper encoding, we can get final PoC code described as above.
+
+[1]: https://github.com/KAIST-IS521/2017ctf-public/blob/bf48232a3c3d0801d96c85d5011162b5c03a95fa/mall/webServer/routes/mypage.js#L70-L74
