@@ -10,7 +10,7 @@ And I found `/login` page vulnerability while check visualizer code for writeups
 
 ## File inclusion vulnerability on `/login` page
 ### Describe
-There are file inclusion vulnerability on `/login` page when getting github-ID using `get` method. Server attempt to find public key and check that it's a valid public key. If public key is not valid, then server print out the content of the file.
+There are file inclusion vulnerability on `/login` page when getting github-ID using `GET` method. Server attempt to find public key and check that it's a valid public key. If public key is not valid, then server print out the content of the file.
 ### Source code
 ```python
 @app.route('/login', methods=['GET', 'POST'])
