@@ -19,7 +19,8 @@ CTF Writeup
     * The main role of ``Jungsuk Oh`` was to analyze TeamFour & TeamFive's codes
     * Also looked into the vulnerability in messaging that is implemented in the shopping mall
 
-- ...
+- Sungbum Ahn <sbahn1992@gmail.com>
+    * The main role of ``Sungbum Ahn`` was to analyze TeamFour's codes and try to find vulnerabilities.
 
 # List of Writeups
 
