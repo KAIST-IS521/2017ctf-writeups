@@ -2,24 +2,24 @@ shopping-mall Writeup
 ===========
 
 # Before read...
-I found vulnerability on `/product/purchase` page by hand-fuzzing during the CTF.
+I found vulnerability on '/product/purchase' page by using hand-fuzzing during the CTF.
 
 But when I tested my payload on my VM. It occured SQL error on MySQL.
 So I can't analyze vulnerability perfectly.
 
 # Abstract
 There were two vulnerabilities on the server.
-Type confusion vulnerability and SQL injection(maybe?) on `/product/purchase` page.
+Type confusion vulnerability and SQL injection(maybe?) on '/product/purchase' page.
 
-Vulnerability was so simple. When I purchase the 'FLAG' directly on main(`/#product`) page.
-I inserted single quote in product_num. And 'FLAG' was bought.
+Vulnerability was so simple. When I purchase the 'FLAG' directly on main ('/#product') page.
+I inserted single-quote in value of 'product_num'. And 'FLAG' was bought and succeed transaction-check.
 
-And I read code again because to check vulnerability.
+So I read and run code again because to check vulnerability.
 
-## Type confusion on `/product/purchase` page
-### Describe
-First it has a type confusion vulnerablity when check product_num value.
-And insert invalid SQL query with product_num.
+## Type confusion and SQL injection on '/product/purchase' page
+### Explanation
+First it has a type confusion vulnerablity when check 'product_num' value.
+And page inserts invalid SQL query that made by 'product_num'.
 
 ### Source code
 ```js
@@ -51,8 +51,10 @@ router.get('/purchase', function(req, res, next)
 });
 ```
 
+## Transaction check on `bank.js`
+### Explanation
 And then server runs check_transaction.py script to check that user sended amount of money.
-In this process, because of the invalid `product_num`. Transaction check returns success.
+In this process, because of the invalid `product_num`. check_transaction.py returns success.
 
 ```js
 // bank.js
