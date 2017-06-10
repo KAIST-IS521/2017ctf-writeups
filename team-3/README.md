@@ -3,14 +3,12 @@ CTF Writeup
 
 # Memebers
 
-- Name <youremail@addr.xyz>
-    * The main role of ``Name'' was to do something ...
+- Mingeun Kim <pr0v3rbs@kaist.ac.kr>
+    * Solved [visualizer](visualizer.md) and [shopping-mall](shopping-mall.md) on the ctf.
 - ...
 
 # List of Writeups
 
-- [Hyeongcheol-An.md](Hyeongcheol-An.md)
-- [lbh0307.md](lbh0307.md)
-- [pr0v3rbs.md](pr0v3rbs.md)
-- [seongil-wi.md](lbh0307.md)
-- [jhong3842.md](jhong3842.md)
+- [visualizer.md](visualizer.md)
+- [shopping-mall.md](shopping-mall.md)
+- ...
