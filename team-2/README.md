@@ -15,6 +15,10 @@ CTF Writeup
     * The main role of ``Markus Faerevaag'' was to do code analysis for Team Three
     * Also, defense with snort (writing rule for Visualizer and trying to get it working)
 
+- Jungsuk Oh <jsoh921@kaist.ac.kr>
+* The main role of ``Jungsuk Oh`` was to analyze TeamFour & TeamFive's codes
+* Also looked into the vulnerability in messaging that is implemented in the shopping mall
+
 - ...
 
 # List of Writeups
