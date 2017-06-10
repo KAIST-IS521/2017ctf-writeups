@@ -9,6 +9,8 @@ CTF Writeup
 
 # List of Writeups
 
+- [snort.md](snort.md)
 - [visualizer.md](visualizer.md)
 - [shopping-mall.md](shopping-mall.md)
-- ...
+- [bank.md](bank.md)
+
