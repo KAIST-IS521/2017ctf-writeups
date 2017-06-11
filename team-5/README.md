@@ -19,6 +19,6 @@ CTF Writeup
 # List of Writeups
 
 - [bank.md](bank.md)
+- [mall.md](mall.md)
 - [visualizer.md](visualizer.md)
 - [government.md](government.md)
-- ...
