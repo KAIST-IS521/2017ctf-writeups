@@ -18,7 +18,7 @@ CTF Writeup
     * The main role of `Ji Hyun Yoon` was to set `snort` configuration and make `snort` rules depending on vulnerabilities that `ChiHyun Song` found.
 
 - Jaemin Park <jmpark81@kaist.ac.kr>
-    * Main role: attack (run scripts) & defence
+    * The main role of `Jaemin Park` was to run scripts implemented by ``ChiHyun Song`` and co-work with `Ji Hyeon Yoon` to set up `snort` for depending on vulnerabilities that `ChiHyun Song` found. 
 
 # List of Writeups
 - [bank.md](bank.md)
