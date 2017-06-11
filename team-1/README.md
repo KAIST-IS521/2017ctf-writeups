@@ -12,7 +12,7 @@ CTF Writeup
     * The main role of `Jiho Lee` was to analyze `notary` and `government` service and try to find vulnerabilities.
 
 - Jangha Kim <james010kim@gmail.com>
-    * Main role: attack & talking :D
+    * The main role of `Jangha Kim` was to gather miscellaneous information about vulnerable services and to prepare some attack surface that `ChiHyun Song` found.
 
 - Ji Hyeon Yoon <jihyeon.yoon@kaist.ac.kr>
     * The main role of `Ji Hyun Yoon` was to set `snort` configuration and make `snort` rules depending on vulnerabilities that `ChiHyun Song` found.
