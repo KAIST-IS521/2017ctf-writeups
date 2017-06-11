@@ -12,6 +12,9 @@ CTF Writeup
     * Studying Snort. But failed in CTF.. (T.T)
 - DonghwanKwon <prious@kaist.ac.kr>
     * Main role is developing a government bot using WebDriver.
+- YunSeokNa <neil123@naver.com>
+    * Main role is organizing docker related things.
+    * Supporting Front page(error page) development.
 	
 # List of Writeups
 
