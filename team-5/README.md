@@ -3,12 +3,12 @@ CTF Writeup
 
 # Memebers
 
-- Name <youremail@addr.xyz>
-    * The main role of ``Name'' was to do something ...
+- JeongOhKye <ohkye415@gmail.com>
+    * Main role is developing key-update server.
+    * Supporting Front page development
 - ...
 
 # List of Writeups
 
 - [government.md](government.md)
-- [Y.md](link to Y.md)
 - ...
