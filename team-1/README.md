@@ -15,7 +15,7 @@ CTF Writeup
     * Main role: attack & talking :D
 
 - Ji Hyeon Yoon <jihyeon.yoon@kaist.ac.kr>
-    * Main role: defence
+    * The main role of `Ji Hyun Yoon` was to set `snort` configuration and make `snort` rules depending on vulnerabilities that `ChiHyun Song` found.
 
 - Jaemin Park <jmpark81@kaist.ac.kr>
     * Main role: attack (run scripts) & defence
