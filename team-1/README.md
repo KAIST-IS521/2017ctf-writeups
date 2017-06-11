@@ -9,7 +9,7 @@ CTF Writeup
     `visualizer`, including script that submits flags.
 
 - Jiho Lee <cjdhlds08@gmail.com>
-    * Main role: attack
+    * The main role of `Jiho Lee` was to analyze `notary` and `government` service and try to find vulnerabilities.
 
 - Jangha Kim <james010kim@gmail.com>
     * Main role: attack & talking :D
