@@ -12,7 +12,11 @@ CTF Writeup
 - Byeonghak Lee <lbh0307@kaist.ac.kr>
     * Write exploit codes and automated flag submission.
 	  * Found SQL injection query with bypassing `=` filtering.
-
+	  
+- Jaehong Kim <jhong3842@gmail.com>
+    * Regular expressions and vulnerabilities found vulnerable to sql injection attacks.
+	  * Creating snort rules. found vulnerabilities, xss, sqli
+	  
 - Hyeongcheol An <anh1026@kaist.ac.kr>
 
 # List of Writeups
