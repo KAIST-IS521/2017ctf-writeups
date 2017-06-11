@@ -6,9 +6,12 @@ CTF Writeup
 - Mingeun Kim <pr0v3rbs@kaist.ac.kr>
     * Solved [visualizer](visualizer.md) and [shopping-mall](shopping-mall.md) on the ctf.
 
+- Seongil Wi <su3604@kaist.ac.kr>
+    * Defense with snort (Write snort rule and try to get it working)
+    
 - Byeonghak Lee <lbh0307@kaist.ac.kr>
-	* Write exploit codes and automated flag submission.
-	* Found SQL injection query with bypassing `=` filtering.
+    * Write exploit codes and automated flag submission.
+	  * Found SQL injection query with bypassing `=` filtering.
 
 - Hyeongcheol An <anh1026@kaist.ac.kr>
 
