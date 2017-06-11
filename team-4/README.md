@@ -1,14 +1,12 @@
 CTF Writeup
 ===========
 
-# Memebers
+# Members
 
-- Name <youremail@addr.xyz>
-    * The main role of ``Name'' was to do something ...
-- ...
+- YoungKwang Han <juanaevv@gmail.com>
+    * The main role of ``YoungKwang Han'' was to analyze Team 1,2, and 3's services and authentication system and tried to find vulnerabilities.
+- 
 
 # List of Writeups
 
-- [X.md](link to X.md)
-- [Y.md](link to Y.md)
-- ...
+- No successfully found vulnerabilities
