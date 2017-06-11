@@ -82,8 +82,7 @@ fs가 정의되어있지 않은데, `require`를 사용해서 fs를 불러오면
 
 ## Exploit
 
-
-```
+```py
 import os
 import re
 import time
