@@ -15,7 +15,11 @@ CTF Writeup
 - YunSeokNa <neil123@naver.com>
     * Main role is organizing docker related things.
     * Supporting Front page(error page) development.
-	
+- Yunjong Jeong <yunjong@kaist.ac.kr>
+    * Main role is developing government web service.
+    * Supported web frontend development.
+    * Supported deploying services.
+
 # List of Writeups
 
 - [bank.md](bank.md)
