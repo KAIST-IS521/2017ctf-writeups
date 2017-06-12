@@ -3,14 +3,12 @@ CTF Writeup
 
 # Memebers
 
-- Seungwon Woo <seungwonwoo@kaist.ac.kr>
-    * Main role is developing notray's launcher part.
-	* Analysis Team1 and Team2 source code in CTF.
-	* Trying to attack Team2 with SQL injection in CTF.
+- Name <youremail@addr.xyz>
+    * The main role of ``Name'' was to do something ...
 - ...
 
 # List of Writeups
 
-- [seungwonwoo.md](seungwonwoo.md)
+- [X.md](link to X.md)
 - [Y.md](link to Y.md)
 - ...
