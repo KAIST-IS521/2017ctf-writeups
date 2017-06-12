@@ -19,6 +19,8 @@ CTF Writeup
     * Main role is developing government web service.
     * Supported web frontend development.
     * Supported deploying services.
+-  Bumjin Gwak <bjgwak@kaist.ac.kr>
+    * Main role is developing SLA checker for goverment service
 
 # List of Writeups
 
