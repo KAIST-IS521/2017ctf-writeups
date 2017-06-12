@@ -9,4 +9,4 @@ CTF Writeup
 
 # List of Writeups
 
-- No successfully found vulnerabilities
+- No successful found vulnerabilities
