@@ -21,6 +21,10 @@ CTF Writeup
     * Since ``Jaemoon Sim`` had little knowledge about network and security, nothing was successful.
     * Mainly focused on modifying ``cookies`` of Government (Team 5) webservice, but it was not enough to attack anything.
 
+- Gunwoo Kim <signal@kaist.ac.kr>
+    * The main role of ``Gunwoo Kim`` was to operate, mangage and make Snort rule for defence.
+    * However, Due to the route setup in CTF environment and little knowledge in Snort, nothing was successful
+    * diff notary and bank sources and analyzed them but cannot discover any flaws.
 
 # List of Writeups
 
