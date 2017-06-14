@@ -3,12 +3,28 @@ CTF Writeup
 
 # Memebers
 
-- Name <youremail@addr.xyz>
-    * The main role of ``Name'' was to do something ...
-- ...
+- JeongOhKye <ohkye415@gmail.com>
+    * Main role is developing key-update server.
+    * Supporting Front page development
+- MunBeomKim <kmb1109@gmail.com>
+    * Main role is developing goverment web service.
+    * Supporting SLA checkers for goverment web service.
+    * Studying Snort. But failed in CTF.. (T.T)
+- DonghwanKwon <prious@kaist.ac.kr>
+    * Main role is developing a government bot using WebDriver.
+- YunSeokNa <neil123@naver.com>
+    * Main role is organizing docker related things.
+    * Supporting Front page(error page) development.
+- Yunjong Jeong <yunjong@kaist.ac.kr>
+    * Main role is developing government web service.
+    * Supported web frontend development.
+    * Supported deploying services.
+-  Bumjin Gwak <bjgwak@kaist.ac.kr>
+    * Main role is developing SLA checker for goverment service
 
 # List of Writeups
 
-- [X.md](link to X.md)
-- [Y.md](link to Y.md)
-- ...
+- [bank.md](bank.md)
+- [mall.md](mall.md)
+- [visualizer.md](visualizer.md)
+- [government.md](government.md)
